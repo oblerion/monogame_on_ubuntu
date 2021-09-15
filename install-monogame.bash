@@ -16,7 +16,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328
 echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 sudo apt update
 while [c != 1 ] && [ c != 0 ]; do
-	echo install visual studio code 1/yes 0/no
+	echo do you want install visual studio code ? 1/yes 0/no
 	read c
 done
 if [ c==1 ];then
