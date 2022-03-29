@@ -2,7 +2,7 @@
 script for install/setup [monogame](https://www.monogame.net/) devellop on ubuntu
 ## how use it
 ```
-sudo chmod +x script.bash
+sudo chmod +x install_monogame.bash
 ./script.bash
 ```
 ## when it launch
