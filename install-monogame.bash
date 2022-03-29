@@ -26,16 +26,16 @@ if [ c==1 ];then
 	sudo apt update
 	sudo apt-get install code
 
-	echo monogame templates
+	echo install monogame vsc templates
 
 	code --install-extension ms-dotnettools.csharp
+elif [ c==0 ];then
+	echo install opengl monogame template
+	dotnet new -i MonoGame.Templates.CSharp
+	dotnet new -i mgdesktopgl
 fi
 echo install MGCB editor
-
 dotnet tool install --global dotnet-mgcb-editor
 mgcb-editor --register
 
-echo install wine
 
-sudo apt install wine64 p7zip-full
-wget -qO- https://raw.githubusercontent.com/MonoGame/MonoGame/develop/Tools/MonoGame.Effect.Compiler/mgfxc_wine_setup.sh | bash
