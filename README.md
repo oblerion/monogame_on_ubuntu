@@ -5,7 +5,7 @@ script for install/setup [monogame](https://www.monogame.net/) devellop on ubunt
 - install dotnet 
 - install monogame template
 - (optional) install visual studio code + monogame template 
-## how use it
+# how use it
 ```
 sudo chmod +x install-monogame.bash
 ./install-monogame.bash
@@ -17,7 +17,7 @@ don't be surprise it take some minutes for setting up
 ```
 dotnet new <TemplateID> -o <ProjectName>
 ```
-TemplateID = name id template
+TemplateID = name id template<br>
 ProjectName = name's directory of game
 
 get list id template
